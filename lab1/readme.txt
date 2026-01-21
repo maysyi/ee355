@@ -8,5 +8,3 @@
    gcc --version
    g++ --version
    python --version
- 
-2. 
