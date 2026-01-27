@@ -96,7 +96,7 @@ double get_second_moment(double* sample1, double* sample2, double mean1, double 
    for (int i=0; i<n; i++) {
       sum += (sample1[i] - mean1)*(sample2[i] - mean2);
    }
-   return sum/n;
+   return sum/(n-1);
 }
 
 
